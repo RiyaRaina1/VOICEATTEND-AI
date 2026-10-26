@@ -1,0 +1,33 @@
+# VoiceAttend Requirements
+# Python 3.10 - 3.12 recommended on Windows x86_64
+
+# Web Dashboard & Data Handling
+streamlit>=1.40.0
+numpy>=1.24.0
+scipy>=1.11.0
+pandas>=2.0.0
+
+# Audio I/O
+soundfile>=0.12.1
+
+# Pretrained Speaker Recognition (Deep Learning)
+torch>=2.0.0
+torchaudio>=2.0.0
+speechbrain>=1.0.0
+
+# Pretrained Speech Command Verification (NLP)
+faster-whisper>=1.0.0
+# faster-whisper 1.2.x passes metadata_errors to av.open; PyAV 19 removed it.
+av>=11,<19
+
+# Security & Authentication
+bcrypt>=4.0.0
+python-dotenv>=1.0.0
+
+# Visualization & Reporting
+plotly>=5.0.0
+reportlab>=4.0.0
+
+# Testing & Quality
+pytest>=8.0.0
+

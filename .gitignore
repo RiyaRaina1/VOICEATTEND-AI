@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Data and models (Privacy & Storage)
+data/enrollment/*.wav
+data/enrollment/*.flac
+data/enrollment/*.mp3
+data/profiles/*.npy
+data/profiles/*.pkl
+*.db
+*.sqlite3
+pretrained_models/
+speechbrain_cache/
+whisper_cache/
+
+# Streamlit
+.streamlit/
+
+# Testing & logs
+.pytest_cache/
+*.log
+
+# Local databases and private biometric data
+*.db
+*.sqlite
+*.sqlite3
+*.wav
+*.flac
+*.mp3
+*.npy
+*.pkl
+
+# Runtime data and downloaded AI models
+data/pretrained_models/
+data/voiceattend.db
+data/enrollment/*
+!data/enrollment/.gitkeep
+data/profiles/*
+!data/profiles/.gitkeep
+
+# Python cache files in every directory
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Local virtual environments
+.venv/
+
+# Local editor settings
+.vscode/

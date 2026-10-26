@@ -1,0 +1,10 @@
+speaker_id,audio_path,split,spoken_command
+student_01,sample_data/student_01_enroll_1.wav,enroll,present
+student_01,sample_data/student_01_enroll_2.wav,enroll,present
+student_01,sample_data/student_01_enroll_3.wav,enroll,present
+student_01,sample_data/student_01_test_1.wav,test,present
+student_02,sample_data/student_02_enroll_1.wav,enroll,present
+student_02,sample_data/student_02_enroll_2.wav,enroll,present
+student_02,sample_data/student_02_enroll_3.wav,enroll,present
+student_02,sample_data/student_02_test_1.wav,test,present
+unknown_01,sample_data/unknown_01_test_1.wav,test,present

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">VoiceAttend AI identity mark</title>
+  <desc id="desc">A shield containing a fingerprint and an audio waveform.</desc>
+  <defs>
+    <linearGradient id="vaGradient" x1="18" y1="12" x2="142" y2="148" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7167F8"/><stop offset="1" stop-color="#35D5E8"/>
+    </linearGradient>
+    <linearGradient id="vaLine" x1="38" y1="36" x2="124" y2="122" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#BDB8FF"/><stop offset="1" stop-color="#8FF4FF"/>
+    </linearGradient>
+  </defs>
+  <path d="M80 8 137 29v43c0 37-23 63-57 80C46 135 23 109 23 72V29L80 8Z" fill="#111B2E" stroke="url(#vaGradient)" stroke-width="8"/>
+  <path d="M58 68c0-13 10-23 22-23s22 10 22 23v25M47 75c0-20 15-36 33-36s33 16 33 36v9M69 73c0-7 5-12 11-12s11 5 11 12v30M47 96c8 24 20 34 33 41M113 96c-4 17-12 29-24 38" fill="none" stroke="url(#vaLine)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M39 105h13l6-18 9 34 10-48 10 57 9-31 8 20h17" fill="none" stroke="#35D5E8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".95"/>
+</svg>
